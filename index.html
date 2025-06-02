@@ -1,70 +1,61 @@
-<<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Express FULAFULA</title>
-    <meta name="description" content="Express FULAFULA est une agence de livraison à Kinshasa. Nous livrons rapidement pour les e-commerçants, entreprises et particuliers, avec fiabilité et ponctualité.">
+    <title>Express FULAFULA - Livraison à Kinshasa</title>
+    <meta name="description" content="Express FULAFULA est une agence de livraison à Kinshasa. Livraison express, standard, collecte à domicile, partenariat avec e-commerçants.">
+    <meta name="keywords" content="livraison Kinshasa, express, colis, transport, entreprise, e-commerce, Alibaba, Shein, agence de livraison">
+    <meta name="author" content="Express FULAFULA">
 
-    <!-- Favicon (à mettre dans le dossier "images" en tant que "favicon.ico") -->
+    <!-- Sitemap and robots -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
+    <meta name="robots" content="index, follow">
+
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
+        * { box-sizing: border-box; }
         body {
             margin: 0;
             font-family: Arial, sans-serif;
             background: linear-gradient(to bottom right, #d9eaff, #ffffff);
             color: #003366;
         }
-
         header {
             background-color: #003366;
             color: white;
             padding: 20px;
             text-align: center;
         }
-
         header img {
             width: 100px;
             height: auto;
             border-radius: 50%;
             margin-bottom: 10px;
         }
-
         .container {
             padding: 20px;
             max-width: 1000px;
             margin: auto;
         }
-
-        h2 {
-            color: #0055aa;
+        h2 { color: #0055aa; }
+        .section {
+            margin-top: 40px;
         }
-
         .contact {
             background-color: #f0f8ff;
             padding: 20px;
             border-radius: 10px;
-            margin-top: 40px;
         }
-
         a {
             color: #0077cc;
             text-decoration: none;
         }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .contact-links p {
-            margin: 10px 0;
-        }
-
+        a:hover { text-decoration: underline; }
+        .contact-links p, .section ul { margin: 10px 0; }
         footer {
             text-align: center;
             padding: 15px;
@@ -72,24 +63,11 @@
             color: white;
             margin-top: 40px;
         }
-
-        /* Responsive design */
         @media screen and (max-width: 600px) {
-            header img {
-                width: 80px;
-            }
-
-            h1 {
-                font-size: 1.5em;
-            }
-
-            .container {
-                padding: 10px;
-            }
-
-            .contact {
-                padding: 15px;
-            }
+            header img { width: 80px; }
+            h1 { font-size: 1.5em; }
+            .container { padding: 10px; }
+            .contact { padding: 15px; }
         }
     </style>
 </head>
@@ -105,14 +83,43 @@
         <p>
             Nous sommes une agence de livraison qui travaille avec toutes les entreprises commerciales, 
             les E-commerçants et bien d'autres. Nous livrons partout à Kinshasa et nous recherchons 
-            la satisfaction des clients en honorant leur commandes à temps.
+            la satisfaction des clients en honorant leurs commandes à temps.
         </p>
 
-        <div class="contact">
+        <div class="section">
+            <h2>Nos services</h2>
+            <ul>
+                <li>Livraison express en moins de 2h à Kinshasa</li>
+                <li>Livraison standard le jour même ou le lendemain</li>
+                <li>Collecte et dépôt de colis à domicile ou en entreprise</li>
+                <li>Partenariat avec boutiques en ligne et vendeurs sur Facebook, Instagram</li>
+                <li>Prise en charge des colis importés via Alibaba, Shein...</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Nos avantages</h2>
+            <ul>
+                <li>Tarifs abordables et transparents</li>
+                <li>Livreurs formés, professionnels et courtois</li>
+                <li>Engagement pour la sécurité de vos biens</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Zone de couverture</h2>
+            <p>
+                Toutes les communes de Kinshasa notamment : Gombe, Kintambo, Masina, Ngaliema, 
+                Bandalungwa, Lemba, Ndjili, Mont Ngafula, et bien d'autres.
+            </p>
+        </div>
+
+        <div class="contact section">
             <h2>Nous contacter</h2>
             <div class="contact-links">
-                <p><strong>Instagram :</strong> <a href="https://www.instagram.com/expressfulafula" target="_blank">@expressfulafula</a></p>
-                <p><strong>Facebook :</strong> <a href="https://www.facebook.com/expressfulafula" target="_blank">Express FULAFULA</a></p>
+                <p><strong>Email :</strong> <a href="mailto:expressfulafula@gmail.com">expressfulafula@gmail.com</a></p>
+                <p><strong>Instagram :</strong> <a href="https://www.instagram.com/express.fula.fula?igsh=NGFjb29zNjlsMnFo" target="_blank">@express.fula.fula</a></p>
+                <p><strong>Facebook :</strong> <a href="https://www.facebook.com/profile.php?id=100088797964486" target="_blank">Express FULAFULA</a></p>
                 <p><strong>WhatsApp :</strong> 
                     <a href="https://wa.me/243970130495" target="_blank">+243 970130495</a> / 
                     <a href="https://wa.me/243821899511" target="_blank">821899511</a>
